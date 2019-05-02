@@ -40,10 +40,10 @@ if(condition){
 - Check to make sure your code works.
 - If everything works, comment out your code.
 
-##### CHRISTMAS?
-- Ask the user if they celebrate Christmas.
-- Save their response as a variable called `celebratesChristmas`
-- If the celebrate Christmas. Tell them, "MERRY CHRISTMAS!!" otherwise, say "Happy Holidays!"
+##### BIRTHDAY?
+- Ask the user if it's their birthday today.
+- Save their response as a variable called `birthdayIsToday`
+- If it's their birthday. Tell them, "HAPPY BIRTHDAY!!" otherwise, say "Good Day, Mate!"
 - Check to make sure your code works.
 - If everything works, comment out your code.
 
@@ -51,22 +51,21 @@ if(condition){
 ##### TACOS
 - Ask the user which taco they want: chicken or steak.
 - Save the response in a variable.
-- Write an if/else if/else statement
+- Write an if/else statement
   - **IF** the user says chicken, tell them the chicken tacos are the best.
   - **ELSE IF** the user says steak, tell them the steak tacos are the best.
   - **ELSE** tell the user their item isn't on the menu.
 - Check to make sure your code works.
 - If everything works, comment out your code.
 
-##### WHO WILL WIN THE NCAA CHAMPIONSHIP?
-- Ask the user who will win the NCAA championship (Clemson, Okalahoma, Georgia, or Alabama).
+##### WHAT IS YOUR FAVORITE COLOR IN THE RAINBOW?
+- Ask the user what their favorite color in the rainbow is (red, orange, yellow, green, blue, indigo, violet).
 - Save the response in a variable
-- Write an if/else if/else statement
-  - If the user says Clemson, respond accordingly
-  - Else if the user says Oklahoma, respond accordingly
-  - Else if the user says Georgia, respond accordingly
-  - Else if the user says Alabama, respond accordingly
-  - Else (if) the user picks and invalid option, respond accordingly
+- Write an if/else statement
+  - If the user says red, respond accordingly
+  - Else if the user says orange, respond accordingly
+  - Else if the user says yellow, respond accordingly ... continue through the rest of the colors
+  - Else (if) the user picks and invalid option (a color that is not in the rainbow), respond accordingly
 - Check to make sure your code works.
 - If everything works, comment out your code.
 
@@ -76,7 +75,7 @@ if(condition){
 - Save the response as a variable.
 - Ask the user if they are thirsty.
 - Save the response as a variable.
-- The if/else if/else statements:
+- The if/else statements:
 >(*hint* you will be using the `&&` and `||` symbols for this one.)
   - If the user is hungry and thirsty, give them a cookie and milk. 
   - If the user is hungry but not thirsty, give them a cookie
